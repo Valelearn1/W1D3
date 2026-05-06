@@ -117,6 +117,10 @@ input, textarea {
     color: #000000;
 }
 
+.consent {
+    width: auto;
+}
+
 button {
     color: hsl(0, 0%, 98%);
     background-color: hsl(220, 49%, 27%);
