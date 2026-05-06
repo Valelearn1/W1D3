@@ -129,19 +129,19 @@
 
       <form method="get" action="grazie.html">
         <label for="name">Nome</label> <br />
-        <input type="text" id="name" placeholder="Il tuo nome" required /> <br /><br />
+        <input type="text" id="name" class="focus" placeholder="Il tuo nome" required> <br /><br />
         <label for="email">E-mail</label> <br />
-        <input type="email" id="email" placeholder="Esempio: nome@gmail.com" required /> <br /><br />
+        <input type="email" id="email" class="focus" placeholder="Esempio: nome@gmail.com" required /> <br /><br />
         <label for="reason">Motivo del contatto</label> <br />
-        <select id="reason" name="reason" required>
+        <select id="reason" name="reason" class="focus" required>
           <option value="" selected></option>
           <option value="job">Proposta di lavoro</option>
           <option value="info">Richiesta di informazioni</option>
         </select> <br /><br />
         <label for="preferredDate">Data preferita per la risposta</label> <br />
-        <input type="date" id="preferredDate" /> <br /><br />
+        <input type="date" id="preferredDate" class="focus"/> <br /><br />
         <label for="message">Messaggio</label> <br />
-        <textarea id="message" name="message" rows="3" cols="50"
+        <textarea id="message" name="message" class="focus" rows="3" cols="50"
           placeholder="Scrivi qui il tuo messaggio..."></textarea>
         <br /><br />
         <input type="checkbox" id="contact" name="contact" />
